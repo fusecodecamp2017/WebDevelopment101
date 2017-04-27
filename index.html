@@ -45,11 +45,10 @@
             <div class="col-md-5">
                 <div class="panel panel-default my_panel">
                     <div class="panel-body" id="me">
-                        <!--<img src="img/me.jpg" alt="" class="center-block" />-->
                     </div>
                     <div class="panel-footer">
-                        <h3>Keyan Hardman</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, voluptas, sunt vitae mollitia iure perferendis rerum odio! Natus, cupiditate, est, quas, non perspiciatis in quo possimus eos voluptas tempore maxime.</p>
+                        <h3 id="meHeader">Keyan Hardman</h3>
+                        <p id="meDescription">I'm a 24 year old programmer. Yay!</p>
                     </div>
                 </div>
             </div>
@@ -68,23 +67,34 @@
                 </div>
                 <div class="panel panel-primary">
                     <div class="panel-heading bg-three">
-                        <h3 class="panel-title">My Hobbies</h3>
+                        <h3 class="panel-title">Favorite things</h3>
                     </div>
                     <div class="panel-body">
-                        <p>
-                            There's some interesting things about me and my life. In this paragraph I will describe the cool and interesting things I've done. You'd think to yourself, "Could this guy really be <i>that</i> interesting?" The answer is:
-                            I don't know. So to get started with the interesting stuff... yeah, the first thing I was gonna talk about was really interesting, believe me. I think it had something to do with a trip I took one time, but it would take a
-                            long time to type. Maybe I could just use this section to just list cool places I've been, but honestly I'm getting bored. ✌️
-                        </p>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <ul>
+                                    <li>Coding!</li>
+                                    <li>Playing basketball</li>
+                                    <li>Watching basketball</li>
+                                    <li>Playing video game basketball</li>
+                                    <li>Music</li>
+                                    <li>Hiking</li>
+                                    <li>Frisbee Golf</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6">
+                                <button id="favoriteGame" class="btn btn-primary">Reveal the best video game ever</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="panel panel-primary">
-                    <div class="panel-heading bg-four">
-                        <h3 class="panel-title">Third Thing</h3>
+                    <div class="panel-heading bg-four" id="changeMyColor">
+                        <h3 class="panel-title">Randomize my color</h3>
                     </div>
                     <div class="panel-body">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit id, quis quidem adipisci illum tenetur perferendis porro suscipit nam minus ea quisquam vero quibusdam commodi error nisi? Ratione, asperiores. Natus!
+                            <button id="changeColorButton" class="btn btn-primary">Randomize color</button>
                         </p>
                     </div>
                 </div>
@@ -96,6 +106,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

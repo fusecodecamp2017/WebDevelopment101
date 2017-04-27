@@ -32,8 +32,7 @@ body {
 }
 
 .panel-heading.bg-four {
-    background-color: #5C9EAD!important;
-    border-color: #5C9EAD!important;
+    transition: .5s;
 }
 
 .my_panel>.panel-body {
@@ -105,3 +104,6 @@ body {
     text-align: center;
     color: #4e4e4e;
 }
+
+
+/*box example*/
