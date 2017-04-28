@@ -10,6 +10,7 @@ $('#changeColorButton').click(function() {
     console.log(color);
 
     $('#changeMyColor').css('background-color', color)
+    $('#changeMyColor').css('border-color', color)
 });
 
 $('#favoriteGame').click(function() {

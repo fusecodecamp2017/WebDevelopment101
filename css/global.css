@@ -1,5 +1,5 @@
 body {
-    background: url(img/geometry.png)
+    background: url(../img/geometry.png)
 }
 
 .panel {
@@ -84,7 +84,7 @@ body {
 /*index*/
 
 #me {
-    background-image: url(img/me.jpg);
+    background-image: url(../img/me.jpg);
     height: 460px;
     background-size: 100%;
 }
@@ -106,4 +106,8 @@ body {
 }
 
 
-/*box example*/
+/*spotify search*/
+
+#submitSearch {
+    width: 100%;
+}
